@@ -1,9 +1,9 @@
 <template>
   <main class="flex flex-col justify-center">
-    <HomeTwitter />
+    <!-- <HomeTwitter /> -->
     <HomeHero />
     <HomeFeatures />
-    <HomeLogos />
-    <HomeCta />
+    <!-- <HomeLogos /> -->
+    <!-- <HomeCta /> -->
   </main>
 </template>

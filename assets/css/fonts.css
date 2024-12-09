@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Nohemi';
+  src: url('@/assets/fonts/nohemi/Nohemi-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}

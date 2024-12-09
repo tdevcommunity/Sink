@@ -1,10 +1,9 @@
 <script setup>
 import { Ellipsis, X } from 'lucide-vue-next'
-import { GitHubIcon } from 'vue3-simple-icons'
 import SwitchTheme from '../SwitchTheme.vue'
 
 const showMenu = ref(false)
-const { title, github } = useAppConfig()
+const { title } = useAppConfig()
 </script>
 
 <template>
@@ -65,7 +64,7 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >Dashboard</a>
-              <a
+              <!-- <a
                 :href="github"
                 target="_blank"
                 title="Github"
@@ -74,7 +73,7 @@ const { title, github } = useAppConfig()
                 <GitHubIcon
                   class="w-5 h-5 mr-1"
                 />
-                GitHub</a>
+                GitHub</a> -->
               <span class="ml-1">
                 <SwitchTheme />
               </span>

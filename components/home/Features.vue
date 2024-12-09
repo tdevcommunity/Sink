@@ -3,39 +3,33 @@ import { AreaChart, Hourglass, Link, Paintbrush, ServerOff, Sparkles } from 'luc
 
 const features = ref([
   {
-    title: 'URL Shortening',
-    description:
-          'Compress your URLs to their minimal length.',
+    title: 'Raccourcissement d’URL',
+    description: 'Réduisez vos URLs à leur longueur minimale.',
     icon: Link,
   },
   {
-    title: 'Analytics',
-    description:
-          'Monitor link analytics and gather insightful statistics.',
+    title: 'Analyses',
+    description: 'Suivez les statistiques de vos liens et obtenez des données pertinentes.',
     icon: AreaChart,
   },
   {
-    title: 'Serverless',
-    description:
-          'Deploy without the need for traditional servers.',
+    title: 'Sans serveur',
+    description: 'Déployez sans avoir besoin de serveurs traditionnels.',
     icon: ServerOff,
   },
   {
-    title: 'Customizable Slug',
-    description:
-          'Support for personalized slugs.',
+    title: 'Slug personnalisable',
+    description: 'Prise en charge des slugs personnalisés.',
     icon: Paintbrush,
   },
   {
-    title: 'AI Slug',
-    description:
-          'Leverage AI to generate slugs.',
+    title: 'Slug par IA',
+    description: 'Utilisez l’IA pour générer des slugs.',
     icon: Sparkles,
   },
   {
-    title: 'Link Expiration',
-    description:
-          'Set expiration dates for your links.',
+    title: 'Expiration des liens',
+    description: 'Définissez des dates d’expiration pour vos liens.',
     icon: Hourglass,
   },
 ])
